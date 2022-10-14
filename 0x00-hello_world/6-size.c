@@ -2,9 +2,9 @@
 
 /**
  *main - Entry point
+ *Description: print size of primitive types
  *Return: 0 (success)
  */
-
 int main(void)
 (
 	printf("size of a char: %zu byte(s)\n", sizeof(char));
