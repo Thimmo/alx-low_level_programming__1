@@ -9,9 +9,9 @@ int main(void)
 	int i, j;
 
 	i = 0;
-	while (j <= 98)
+	while (i <= 98)
 	{
-		j = i + 1;	
+		j = i + 1;
 		while (j <= 99)
 		{
 			if (i < j)
@@ -19,7 +19,7 @@ int main(void)
 				putchar(i / 10 + '0');
 				putchar(i % 10 + '0');
 				putchar(' ');
-				putchar(j /10 + '0');
+				putchar(j / 10 + '0');
 				putchar(j % 10 + '0');
 				if (i != 98 || j != 99)
 				{
