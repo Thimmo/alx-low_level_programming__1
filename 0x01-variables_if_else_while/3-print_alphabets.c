@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
- *Description: print lowercase alphabets and uppercase
- *Return: 0 (success)
+ * main - prints alpha in lower and upper case
+ *Return: Always 0
  */
 int main(void)
 {
@@ -14,5 +13,5 @@ int main(void)
 	for (ch = 'A'; ch <= 'Z'; ch++)
 		putchar(ch);
 	putchar('\n');
-	return (0)
+	return (0);
 }
