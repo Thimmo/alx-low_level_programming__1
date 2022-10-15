@@ -14,10 +14,10 @@ int main(void)
 		{
 			putchar((char)num1);
 			putchar((char)num2);
-			if (num != 56)
+			if (num1 != 56)
 			{
-				putchar(',')
-				putchar(' ')
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
